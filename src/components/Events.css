@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500&display=swap');
+/*THE EVNTS PAGE RELATED CSS CODE*/
+
+.navigation img{
+    width: 300px;
+    margin-left:10%;
+    margin-top: 20px;
+}
+.title{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.eventbox{
+    margin: auto;
+    width: 95%;
+    background: linear-gradient(104.21deg, #DAF9F6 0%, rgba(169, 249, 243, 0.955208) 113.57%, rgba(255, 255, 255, 0) 195.39%);
+}
+
+.eventposter img{
+    width: 300px;
+    padding-top:54px;
+    padding-left: 54px;
+    padding-right: 54px;
+    padding-bottom: 54px;
+}
+.eventdescription{
+    font-family: 'Poppins';
+    font-size:20px;
+    width: 800px;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 54px;
+}
+.content{
+    display: flex;
+}
+.tagswritten{
+    font-family: 'Poppins';
+    font-weight: bold;
+    margin-top: auto;
+    font-size: 16px;
+    margin-bottom: auto;
+}
+.tag{
+    display: flex;
+    margin-top: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tag img{
+padding: 5px;
+width: 32px;
+}
+.linetags{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.charge{
+    width: 200px;
+}
+.button{
+    margin-top: 100px;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+    background: #BE1A25;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 11px 11px 7px rgba(0, 0, 0, 0.35);
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
