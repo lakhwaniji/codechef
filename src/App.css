@@ -1,5 +1,11 @@
 .App{
   margin: 0px;
   background-color: #06004B;
-  height: 100vh;
+}
+html{
+  background-color: #06004B;
+}
+@media screen and(min-width:1200){
+  .App{height:100vh;}
+  
 }

@@ -78,3 +78,117 @@ width: 32px;
     font-family: 'Poppins';
     font-weight: lighter;
 }
+
+/*OPTIMIZATION FOR Smaller Laptop*/
+@media screen and (max-width:1200px) {
+    .navigation img{
+        width: 200px;
+        margin-left:10%;
+        margin-top: 20px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .eventposter img{
+        width: 200px;
+        padding-top:44px;
+        padding-left: 44px;
+        padding-right: 44px;
+        padding-bottom: 44px;
+    }
+    .button{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .button a{
+        text-decoration: none;
+        color: white;
+        background: #BE1A25;
+        padding: 5px;
+        border-radius: 20px;
+        box-shadow: 11px 11px 7px rgba(0, 0, 0, 0.35);
+        font-size: 16px;
+        font-family: 'Poppins';
+        font-weight: lighter;
+    }
+}
+/*OPTIMIZATION FOR PHONE*/
+@media screen and (max-width:450px) {
+    .content{
+        flex-direction: column;
+    }
+    .eventbox{
+        width: 90vw;
+        margin-bottom: 20px;
+    }
+    .navigation img{
+        width: 150px;
+        margin-left:5%;
+        margin-top: 20px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .eventposter img{
+        width: 70vw;
+        padding-top:24px;
+        padding-left: 10vw;
+        padding-right: 10vw;
+        padding-bottom: 24px;
+    }
+    .button{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .button a{
+        text-decoration: none;
+        color: white;
+        background: #BE1A25;
+        padding: 5px;
+        border-radius: 20px;
+        box-shadow: 11px 11px 7px rgba(0, 0, 0, 0.35);
+        font-size: 12px;
+        font-family: 'Poppins';
+        font-weight: lighter;
+        position: fixed;
+        bottom: 10px;
+        left: -15vw;
+    }
+    
+        .eventdescription{
+            font-family: 'Poppins';
+            font-size:12px;
+            width: 70vw;
+            line-height: 1.5;
+            font-weight: 500;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 24px;
+        }
+        .linetags{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        
+        }
+        .tagswritten{
+            font-family: 'Poppins';
+            font-weight: bold;
+            margin-top: auto;
+            font-size: 8px;
+            margin-bottom: auto;
+        }
+        .tag{
+            display: flex;
+            margin-top: 12px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .tag img{
+        padding: 5px;
+        width: 16px;
+        }
+        .charge{
+            width: 60px;
+        }
+    
+}
