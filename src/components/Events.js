@@ -53,7 +53,7 @@ function Events(){
                             </div>
                             <div></div>
                             <div className="button grow pointer">
-                                <a href="www.google.com">Registration Open</a>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd-yw0rHr0qWTSVcF4spcRBj9-ydLFIdviNN-cfx7dafhAsdA/viewform">Registration Open</a>
                             </div>
                         </div>
                     </div>
